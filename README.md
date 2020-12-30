@@ -6,7 +6,7 @@
 
 Co-Experiencing Virtual Spaces is a framework in the game engine Unity which allows co-location tracking of multiple VR glasses in the same real space as well as in the same virtual space. By an initial calibration of the devices with the help of the controllers in the center of the room, an absolute zero point in the room can be generated for all of them, at which the virtual environment aligns itself. A paper about the development of this framework was also published in which more details are described: Link Paper
 
-### Calibration process and scientific paper
+### Calibration process and [publication](https://zenodo.org/record/4399217#.X-yjaS9XYlI)
 The framework uses the Oculus integration for Unity and can be built for the mobile standalone VR glasses Oculus Quest and Quest 2. In order to define the absolute zero point in the room, all users must take turns performing a calibration with their controllers. These must be placed at two points in the room by all of the users. To simplify this process, a [graphic](README_Pictures/QuestCotroller_CenterMark.png) was created that can be printed out on A3 paper and placed on the floor. The calibration can also be applied to other VR glasses that have spatial controller tracking. At the REFRESH#3 conference at the Zurich University of the Arts, an earlier version of this framework was used in the project [Echolocation](https://blog.zhdk.ch/immersivearts/virtual-echolocation/). 
 
 ![alt text](README_Pictures/COMultiuserGrafiken-08.png)
