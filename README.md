@@ -85,6 +85,9 @@ In order to enable a full body IK Mesh with the Oculus Quest finger tracking, so
 		
 6. Open the LocalVRPlayer prefab, in the child Object HeadsetTrackingCenter, select the LeftHand and change on the OVRCostumeSkeleton Component the FingerBoneOrientation to FromFlippedXQuatf
 
+### [Blender](https://www.blender.org)
+There are some .blend files in this project. For these to work properly blender 2.8 or higher must be installed on the device
+
 ### Build for Oculus Quest and Android AR Cam
 This Unity project can be used to build for the Oculus Quest and for Android smartphones that support ARCore. Two points have to be changed to build for the other devices.
 
